@@ -9,3 +9,9 @@ i.icon {
 #delete {
   display: inline;
 }
+.item {
+}
+.ui.items>.item>.image>img {
+   height: 150px;
+   /*width: auto;*/
+}
