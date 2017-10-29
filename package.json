@@ -1,19 +1,27 @@
 {
-  "name": "RESTfulBlogApp",
+  "name": "blogprincipals",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Colt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cnfc/BlogPrincipals.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cnfc/BlogPrincipals/issues"
+  },
+  "homepage": "https://github.com/Cnfc/BlogPrincipals#readme",
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "express-sanitizer": "^1.0.1",
-    "method-override": "^2.3.5",
-    "mongoose": "^4.2.3"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-sanitizer": "^1.0.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.12.4"
   }
 }
