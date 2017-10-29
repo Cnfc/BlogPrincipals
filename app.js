@@ -20,11 +20,15 @@ var blogSchema = new mongoose.Schema({
 var Blog = mongoose.model("Blog", blogSchema);
 
 Blog.create({
-  title: "TestBlog"
-  image: "https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg"
+  title: "TestBlog",
+  image: "https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg",
   body: "Hello its a blog post"
 });
 
+
+app.get("/blogs", function(req, res){
+  res.render("index");
+})
 
 // RESTFUL ROUTES
 app.listen(process.env.PORT, process.env.IP, function(){
